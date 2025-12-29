@@ -58,6 +58,7 @@ func main() {
 	}
 }
 
+// Main entrypoint
 func realMain(ctx context.Context) error {
 	args := flag.Args()
 	if len(args) <= 0 {
